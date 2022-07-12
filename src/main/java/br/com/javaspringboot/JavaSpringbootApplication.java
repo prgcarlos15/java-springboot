@@ -15,9 +15,9 @@ public class JavaSpringbootApplication {
 		return "deu certo";
 	}
 	
-	@GetMapping("/{variable}")
-	public String testInput(@PathVariable String meuInput) {
-		return "PSC: " + meuInput + " passa pro próximo";
+	@GetMapping("/{input}")
+	public String testInput(@PathVariable String input) {
+		return "PSC: " + input + " passa pro próximo";
 	}
 	
 	public static void main(String[] args) {
